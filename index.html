@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Página web de ejemplo creada con HTML, que incluye estructura, formularios, tablas, multimedia y buenas prácticas de accesibilidad y SEO."
+    />
+    <title>Mi Página Web Completa</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Encabezado semántico -->
+    <header>
+      <h1>Bienvenidos a Mi Página Web</h1>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#acerca-de">Acerca de</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Sección principal con artículos -->
+    <section id="inicio">
+      <h2>Introducción</h2>
+      <p>
+        Esta página web es un ejemplo que cubre desde las estructuras básicas de
+        HTML hasta elementos multimedia y formularios interactivos.
+      </p>
+
+      <!-- Artículos semánticos -->
+      <article>
+        <h3>Artículo 1: HTML Básico</h3>
+        <p>
+          HTML es el lenguaje de marcado estándar para la creación de páginas
+          web.
+        </p>
+      </article>
+
+      <article>
+        <h3>Artículo 2: HTML Semántico</h3>
+        <p>
+          El uso de etiquetas semánticas como <code>&lt;header&gt;</code> y
+          <code>&lt;section&gt;</code> mejora la accesibilidad y el SEO.
+        </p>
+      </article>
+    </section>
+
+    <!-- Sección sobre -->
+    <section id="acerca-de">
+      <h2>Acerca de Nosotros</h2>
+      <div>
+        <p>
+          Somos una compañía dedicada a enseñar desarrollo web con HTML, CSS y
+          JavaScript.
+        </p>
+      </div>
+
+      <!-- Tabla de equipo -->
+      <h3>Equipo</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Puesto</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Juan Pérez</td>
+            <td>Desarrollador</td>
+          </tr>
+          <tr>
+            <td>Ana López</td>
+            <td>Diseñadora</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Sección de formulario de contacto -->
+    <section id="contacto">
+      <h2>Formulario de Contacto</h2>
+      <form action="/submit" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required />
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <!-- Sección multimedia -->
+    <section>
+      <h2>Galería Multimedia</h2>
+
+      <!-- Imagen accesible -->
+      <img src="imagen.jpg" alt="Una descripción accesible de la imagen" />
+
+      <!-- Video embebido -->
+      <video width="320" height="240" controls>
+        <source src="video.mp4" type="video/mp4" />
+        Tu navegador no soporta video.
+      </video>
+
+      <!-- Integración de Google Maps -->
+      <h3>Nuestra Ubicación</h3>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.8790065584323!2d-74.00594158418484!3d40.712775279330955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a19e6d9fbbf%3A0xe1d0c980b763b5e!2sNueva%20York%2C%20Estados%20Unidos!5e0!3m2!1ses-419!2scr!4v1635396038000!5m2!1ses-419!2scr"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      >
+      </iframe>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+      <p>&copy; 2024 Mi Página Web. Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>
