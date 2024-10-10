@@ -23,7 +23,6 @@
     You can customize the website by editing the `index.html`.
 
     * **Content:** Change the text, images, and other content within the HTML file.
-    * **Styling:** Modify the appearance of the website by adding or changing CSS rules in the `styles.css` file.
 
     ## Credits
 
