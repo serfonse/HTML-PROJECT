@@ -4,7 +4,7 @@
 
     ## How to Run in a Browser
 
-    1. **Download the files:** Download the `index.html` and `styles.css` files to your computer.
+    1. **Download the files:** Download the `index.html` file to your computer.
     2. **Open in a browser:** Locate the `index.html` file on your computer and open it with any web browser (Chrome, Firefox, Edge, Safari, etc.).
 
     That's it! You should now see the website displayed in your browser.
